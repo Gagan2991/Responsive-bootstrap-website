@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>My App</title>
+	<meta name="description" content="My App">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+</head>
+<style>
+/*navbar fixed top was eating up some jumbotron,to prevent that::*/
+	body{
+		padding-top:40px;
+	}
+</style>
+<body data-spy="scroll" data-target="#myNavbar">
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="myNavbar">
+		<div class="container">
+			<div class="navbar-header">
+			 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>                        
+      		</button>
+				<a href="#" class="navbar-brand">Gagan App </a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+
+			<button class="btn btn-warning navbar-btn navbar-right">Download Now</button>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#features">Features</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#feedback">Feedback</a></li>
+				<li><a href="#faq">FAQ</a></li>
+				<li><a href="#contact">Contact us</a></li>
+			</ul>
+			</div>
+		</div>
+	</nav>
+	<!-----jumbotron -->
+	<div class="jumbotron">
+		<div class="container text-center">
+			<h1>Welcome to Gagan App</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at justo lacus.</p>
+		<div class="btn-group">
+			<a href="" class="btn btn-lg btn-info">Download App</a>
+			<a href="" class="btn btn-lg btn-default">Visit store</a>
+			<a href="" class="btn btn-lg btn-info">Spread the word</a>
+		</div>
+		</div>
+	</div>
+	<div class="container">
+		<section>
+		<div class="page-header"  id="feedback">
+			<h2>Feedback.<small>Check out the awesome feedback</small></h2>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<blockquote>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tortor velit, tempus sit amet ornare vitae, tincidunt at erat. Suspendisse non sapien quam. Morbi a lacus odio. Phasellus vel lacus sed sem efficitur blandit at at magna. Phasellus eget placerat erat. Sed viverra ipsum venenat</p>
+			<footer>John doe</footer>
+		</blockquote>
+	</div>
+	<div class="col-sm-4">
+		<blockquote>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tortor velit, tempus sit amet ornare vitae, tincidunt at erat. Suspendisse non sapien quam. Morbi a lacus odio. Phasellus vel lacus sed sem efficitur blandit at at magna. Phasellus eget placerat erat. Sed viverra ipsum venenat</p>
+			<footer>John doe</footer>
+		</blockquote>
+	</div>
+	<div class="col-sm-4">
+		<blockquote>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tortor velit, tempus sit amet ornare vitae, tincidunt at erat. Suspendisse non sapien quam. Morbi a lacus odio. Phasellus vel lacus sed sem efficitur blandit at at magna. Phasellus eget placerat erat. Sed viverra ipsum venenat</p>
+			<footer>John doe</footer>
+		</blockquote>
+	</div>
+	</div>
+	</section>
+	</div>
+	<section>
+		<div class="well">
+		<div class="container text-center">
+			<h3>Subscribe for more free stuff</h3>
+			<p>Enter your name and email:</p>
+			<form action="" class="form-inline">
+				<div class="form-group">
+					<label for="Email">Email Address:</label>
+					<input type="email" id="email" class="form-control" placeholder="your email">
+				</div>
+				<div class="form-group">
+					<label for="Name">Name:</label>
+					<input type="text" id="name" class="form-control" placeholder="your name">
+				</div>
+				<button class="btn btn-default">Subscribe</button>
+			</form>
+			<hr>
+		</div>
+		</div>
+	</section>
+	<div class="container">
+		<section>
+			<div class="page-header" id="gallery">
+				<h2>Gallery.<small>Check out the awesome gallery</small></h2>
+			</div>
+			<div class="carousel slide" id ="screenshot-carousel" data-ride="carousel">
+			<ol class="carousel-indicators">
+			<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+			<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+			<li data-target="#screenshot-carousel" data-slide-to="3"></li>
+			</ol>
+
+			<div class="carousel-inner" role="listbox">
+				 <div class="item active">
+        		<img src="pictures/deer.jpg" alt="advent">
+        			<div class="carousel-caption">
+        			<h3>Deer</h3>
+        			<p>This is caption</p>
+        			</div>
+      			</div>
+      			<div class="item">
+        		<img src="pictures/river.jpg" alt="advent">
+        		<div class="carousel-caption">
+        			<h3>River</h3>
+        			<p>This is caption</p>
+        			</div>
+      			</div>
+      			<div class="item">
+        		<img src="pictures/snow.jpg" alt="advent">
+        		<div class="carousel-caption">
+        			<h3>Snow</h3>
+        			<p>This is caption</p>
+        			</div>
+      			</div>
+      			<div class="item">
+        		<img src="pictures/tree.jpg" alt="advent">
+        		<div class="carousel-caption">
+        			<h3>Tree</h3>
+        			<p>This is caption</p>
+        			</div>
+      			</div>
+			</div>
+			<!--carousel control -->
+			<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+			</div>
+		</section>
+	</div>
+
+	<!--Features-->
+	<div class="container">
+		<section>
+		<div class="page-header" id="features">
+			<h3>Features.<small>Check out some cool features.</small></h3>
+		</div><!--End of page header-->
+
+		<div class="row">
+			<div class="col-sm-8">
+				<h3>This is the heading.</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo justo quis feugiat volutpat. Vivamus felis tellus, dictum eget placerat ut, egestas condimentum mi. Nunc at ligula purus. Ut molestie eros non ex bibendum, sit amet imperdiet tellus ullamcorper. In odio nisi, ullamcorper sed porttitor non, scelerisque ac erat. Phasellus.</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="pictures/office_block.jpg" class="img-responsive" alt="stamp">
+			</div>
+			</div>
+			<div class="row">
+			<div class="col-sm-8">
+				<h3>This is the heading.</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo justo quis feugiat volutpat. Vivamus felis tellus, dictum eget placerat ut, egestas condimentum mi. Nunc at ligula purus. Ut molestie eros non ex bibendum, sit amet imperdiet tellus ullamcorper. In odio nisi, ullamcorper sed porttitor non, scelerisque ac erat. Phasellus.</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="pictures/red_green_blue_pencils.jpg" class="img-responsive" alt="stamp">
+			</div>
+			</div>
+			<div class="row">
+			<div class="col-sm-8">
+				<h3>This is the heading.</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo justo quis feugiat volutpat. Vivamus felis tellus, dictum eget placerat ut, egestas condimentum mi. Nunc at ligula purus. Ut molestie eros non ex bibendum, sit amet imperdiet tellus ullamcorper. In odio nisi, ullamcorper sed porttitor non, scelerisque ac erat. Phasellus.</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="pictures/postage_and_shipping.jpg" class="img-responsive" alt="stamp">
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-sm-4">
+			<div class="panel panel-default text-center">
+				<div class="panel-body">
+				<span class="glyphicon glyphicon-ok"></span>
+					<h3>This is heading</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo justo quis feugiat volutpat. Vivamus felis tellus, dictum eget placerat ut,</p>
+				</div>
+			</div>
+			</div>
+			<div class="col-sm-4">
+			<div class="panel panel-default text-center">
+				<div class="panel-body">
+				<span class="glyphicon glyphicon-star"></span>
+					<h3>This is heading</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo justo quis feugiat volutpat. Vivamus felis tellus, dictum eget placerat ut,</p>
+				</div>
+			</div>
+			</div>
+			<div class="col-sm-4">
+			<div class="panel panel-default text-center">
+				<div class="panel-body">
+				<span class="glyphicon glyphicon-play-circle"></span>
+					<h3>This is heading</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo justo quis feugiat volutpat. Vivamus felis tellus, dictum eget placerat ut,</p>
+				</div>
+			</div>
+			</div>
+		</div>
+		</section>
+	</div><!--end of features-->
+
+	<!--faq-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="faq">
+			<h3>FAQ.<small>Engaging with consumers</small></h3>
+			</div><!--End of page header-->	
+			<div class="panel-group" id="accordian">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse1" data-toggle="collapse" data-parent="#accordian">Question 1</a>
+						</div>
+						<div id="collapse1" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo justo quis feugiat volutpat. Vivamus felis tellus, dictum eget placerat ut,</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse2" data-toggle="collapse" data-parent="#accordian">Question 2</a>
+						</div>
+						<div id="collapse2" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo justo quis feugiat volutpat. Vivamus felis tellus, dictum eget placerat ut,</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse3" data-toggle="collapse" data-parent="#accordian">Question 3</a>
+						</div>
+						<div id="collapse3" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo justo quis feugiat volutpat. Vivamus felis tellus, dictum eget placerat ut,</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!--contactus-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="contact">
+			<h3>Contact Us.<small>Connect with us</small></h3>
+			</div><!--End of page header-->	
+
+			<div class="row">
+				<div class="col-sm-4">
+					<p>Send us a message or contact us from the address below.</p>
+					<address>
+						<strong>xxx pvt ltd</strong>
+						111 Malviya nagar</br>
+						plot no.45</br>
+						New Delhi</br>
+						P: +91 9999999999
+					</address>
+				</div>
+				<div class="col-sm-8">
+					<form action="" class="form-horizontal">
+						<div class="form-group">
+							<label for="username" class="col-sm-2 control-label">Name</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="username" placeholder="Enter your name">
+							</div>
+
+						</div>
+						<div class="form-group">
+							<label for="useremail" class="col-sm-2 control-label">Email</label>
+							<div class="col-sm-10">
+								<input type="email" class="form-control" id="useremail" placeholder="Enter your email">
+							</div>
+
+						</div>
+						<div class="form-group">
+							<label for="usermessage" class="col-sm-2 control-label">Message</label>
+							<div class="col-sm-10">
+								<textarea id="usermessage" name="usermessage" class="form-control" cols="20" rows="10" placeholder="Enter your message"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-10 col-sm-offset-2"><!--col-sm-ofset-2 align button after 2 position-->
+								<button type="button" class="btn btn-primary">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+		</section>
+	</div>
+	<!--footer -->
+
+	<footer>
+		<hr>
+			<div class="container text-center">
+			<h3>Subscribe for more free stuff</h3>
+			<p>Enter your name and email:</p>
+			<form action="" class="form-inline">
+				<div class="form-group">
+					<label for="Email">Email Address:</label>
+					<input type="email" id="email" class="form-control" placeholder="your email">
+				</div>
+				<div class="form-group">
+					<label for="Name">Name:</label>
+					<input type="text" id="name" class="form-control" placeholder="your name">
+				</div>
+				<button class="btn btn-default">Subscribe</button>
+			</form>
+			<hr>
+			<ul class="list-inline">
+				<li><a href="www.twitter.com">Twitter</a></li>
+				<li><a href="www.facebook.com">Facebook</a></li>
+				<li><a href="www.youtube.com">Youtube</a></li>
+			</ul>
+			<p>&copy; Copyright @ 2016</p>
+		</div>
+	</footer>
+	
+
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
